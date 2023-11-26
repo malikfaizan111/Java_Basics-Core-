@@ -1,6 +1,7 @@
 //import java.io.PrintStream;
-import java.util.Scanner;
-
+//import java.util.Scanner;
+// import java.util.*;
+// import java.io.*;
 public class Main {
     public static void main(String... args)    {
 //        System.out.println("Your first argument is: "+args[0]);
@@ -63,20 +64,21 @@ public class Main {
 //        name = scan.nextLine(); // scan.next() only get until the space
 //        System.out.print("Display Name: " + name);
 
-        try (Scanner scan = new Scanner(System.in)) {
-            while (true) {
-                System.out.print("Enter a Name (or type 'exit' to quit): ");
-                String name = scan.nextLine();
+//        try (Scanner scan = new Scanner(System.in)) {
+//            while (true) {
+//                System.out.print("Enter a Name (or type 'exit' to quit): ");
+//                String name = scan.nextLine();
+//
+//                if (name.equalsIgnoreCase("exit")) {
+//                    System.out.println("Exiting the program.");
+//                    break; // Exit the loop if the user types 'exit'
+//                }
+//
+//                System.out.println("Display Name: " + name);
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace(); // Print the exception details to the console
+//        }
 
-                if (name.equalsIgnoreCase("exit")) {
-                    System.out.println("Exiting the program.");
-                    break; // Exit the loop if the user types 'exit'
-                }
-
-                System.out.println("Display Name: " + name);
-            }
-        } catch (Exception e) {
-            e.printStackTrace(); // Print the exception details to the console
-        }
     }
 }
