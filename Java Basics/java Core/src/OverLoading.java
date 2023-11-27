@@ -30,17 +30,25 @@ public class OverLoading {
 class CoverLoad{
 
     public static void main(String ...args){
+
 //        1) Constructor Overloading
+
 //        OverLoading ov = new OverLoading();
 //        OverLoading ov1 = new OverL oading(10);
+
 //        2) Method OverLoading
+
 //        OverLoading method = new OverLoading();
 //        method.add();
 //        method.add(40,50);
+
 //        3) Operator Overloading
+
         int a = 10, b=30;
 //        System.out.println("a=b="+a+b); a=b=1030
         System.out.println("a=b="+(a+b));
     }
 
 }
+
+// Method OverLoading is Compile time polymorphism. this is called static binding
