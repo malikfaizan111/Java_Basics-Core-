@@ -1,4 +1,4 @@
-package LocalInner;
+package InnerMultiple;
 
 abstract class My {
     abstract public void myMethod();
