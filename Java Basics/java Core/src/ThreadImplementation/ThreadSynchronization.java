@@ -90,35 +90,36 @@
 
 
 // 3) Synchronization Static Block
-class Example {
-    synchronized static void display() {
-        Thread g = Thread.currentThread();
-        for (int i = 0; i <= 5; i++) {
-            try {
-                Thread.sleep(1000);
-                System.out.println(g.getName() + " " + i);
-            } catch (Exception e) {
-            }
-        }
-    }
-}
 
-class T extends Thread {
+// class Example {
+//     synchronized static void display() {
+//         Thread g = Thread.currentThread();
+//         for (int i = 0; i <= 5; i++) {
+//             try {
+//                 Thread.sleep(1000);
+//                 System.out.println(g.getName() + " " + i);
+//             } catch (Exception e) {
+//             }
+//         }
+//     }
+// }
 
-    public void run() { 
-        Example.display();
-    }
-}
+// class T extends Thread {
 
-public class ThreadSynchronization {
+//     public void run() { 
+//         Example.display();
+//     }
+// }
 
-    public static void main(String[] args) {
-        Example ex = new Example();
-        T t1 = new T();
-        T t2 = new T();
-        T t3 = new T();
-        t1.start();
-        t2.start();
-        t3.start();
-    }
-}
+// public class ThreadSynchronization {
+
+//     public static void main(String[] args) {
+//         Example ex = new Example();
+//         T t1 = new T();
+//         T t2 = new T();
+//         T t3 = new T();
+//         t1.start();
+//         t2.start();
+//         t3.start();
+//     }
+// }
