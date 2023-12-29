@@ -1,7 +1,5 @@
 package LamdaLearning;
 
-import AnnotationsLearning.UserDefinedAnnotation.userDefine;
-
 interface MyLambdaCapture{
     public void display();
 }
