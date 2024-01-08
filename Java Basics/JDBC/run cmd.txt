@@ -1,0 +1,11 @@
+javac -cp ".;C:/91199/MSCS/JAVA/Java_Basics-Core-/Java Basics/JDBC/sqlite-jdbc.jar" JDBC_Connectivity.java
+
+
+java -cp ".;C:/91199/MSCS/JAVA/Java_Basics-Core-/Java Basics/JDBC/sqlite-jdbc.jar" JDBC_Connectivity
+
+
+
+javac -cp ".;C:/Program Files/Java/jdk-21/sqlite-jdbc-3.36.0.3.jar" JDBC_Connectivity.java
+
+
+java -cp ".;C:/Program Files/Java/jdk-21/sqlite-jdbc-3.36.0.3.jar" JDBC_Connectivity
